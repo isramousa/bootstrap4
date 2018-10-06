@@ -1,21 +1,137 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link " href="#">About</a>
+                    <a class="nav-item nav-link " href="#">Contact</a>
+                    <a class="nav-item nav-link " href="#">Log out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+        <div class="container">
+            <h1 class="display-1">Welcome to jumbotron</h1>
+            <p class="lend">my name is isra mousa</p>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/node.png" class="img-fluid card-img-top" />
+                    <div class="card-body">
+                        <h3 class="card-title">NodeJs course</h3>
+                        <p class="text-muted">The API reference documentation provides detailed information about a function or object in Node.js.
+                            This documentation indicates what arguments a method accepts, the return value of that method,
+                            and what errors may be related to that method. It also indicates which methods are available
+                            for different versions of Node.js.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/react.png" class="img-fluid card-img-top" />
+                    <div class="card-body">
+                        <h3 class="card-title">React course</h3>
+                        <p class="text-muted">React makes it painless to create interactive UIs. Design simple views for each state in your
+                            application, and React will efficiently update and render just the right components when your
+                            data changes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/redux.png" class="card-img-top img-fluid" />
+                    <div class="card-body">
+                        <h3 class="card-title">Redux course</h3>
+                        <p class="text-muted">
+                            Redux is a predictable state container for JavaScript apps. (Not to be confused with a WordPress framework – Redux Framework.)
+                            It helps you write applications that behave consistently, run in different environments (client,
+                            server, and native), and are easy to test. On top of that, it provides a great developer experience,
+                            such as live code editing combined with a time traveling debugger.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="img/mongodb.png" class="card-img-top img-fluid " />
+                    <div class="card-body">
+                        <h3 class="card-title">Mongo course</h3>
+                        <p>
+                            MongoDB Atlas is a database as a service for MongoDB, from the team that builds the database. Available on-demand through
+                            a pay-as-you-go model, MongoDB Atlas provides the features of MongoDB without all of the operational
+                            heavy lifting, allowing you to focus on what you do best.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="display-4 text-center my-4 py-5">Meet the speekers</h2>
+        <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+            <a class="nav-link active" href="#ninga" data-toggle="tab">The Net Ninja</a>
+            <a class="nav-link" href="#facebook" data-toggle="tab">The Facebook</a>
+            <a class="nav-link" href="#twitter" data-toggle="tab">The Twitter</a>
+            <a class="nav-link" href="#youtube" data-toggle="tab">The youtube</a>
+
+        </nav>
+        <div class="tab-content py-5">
+            <div class="tab-pane active" id="ninga">
+                <h3>The Net Ninja</h3>
+                <p>this content</p>
+            </div>
+            <div class="tab-pane" id="facebook">
+                <h3>The Facebook</h3>
+                <p>this content</p>
+            </div>
+            <div class="tab-pane" id="twitter">
+                <h3>The Twitter</h3>
+                <p>this content</p>
+            </div>
+            <div class="tab-pane" id="youtube">
+                <h3>The youtube</h3>
+                <p>this content</p>
+            </div>
+        
+        </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
